@@ -9,7 +9,7 @@ body {
 	/*background-repeat:repeat-x;*/
 	background-image:url( 'images/seigaiha.png' );
 	margin: 0 auto;
-	font-family:'Annie Use Your Telescope',georgia,times,serif;
+	font-family:georgia,times,serif,'Annie+Use+Your+Telescope';
 	height:2000px;
 	}
 
