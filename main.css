@@ -13,6 +13,8 @@ body {
 	height:2000px;
 	}
 
+p { font-family: georgia,times,serif,'Annie Use Your Telescope' }
+
 ul.__inline {
   margin: 0;
   padding: 0;
