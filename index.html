@@ -4,7 +4,12 @@
 <head>
 	<meta charset='UTF-8' />
   <script type='text/javascript' src='softscroll.js'></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="main.css" />
+
   <!-- <link id='redux-google-fonts-css' href='//fonts.googleapis.com/css?family=Annie+Use+Your+Telescope' rel='stylesheet' type='text/css'>
   <link id='redux-google-fonts-css' href='//fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'> -->
   <!--To use google font in github, use href='//fonts.googleapis...' instead of href='http//fonts.googleapis...' -->
@@ -13,11 +18,9 @@
 </head>
 <body>
 
-
-
 <div id="header">
 	<div id="nav">
-    <h1>邱維辰 Wei-Chen (Walon) Chiu  </h1>
+    <h1><b>邱維辰 Wei-Chen (Walon) Chiu<b></h1>
     <span style="word-spacing:normal; color:white; font-family:'Annie Use Your Telescope', arial, serif;">
     <!-- <span style="word-spacing:normal; color:white; font-family:'Inconsolata';"> -->
     <ul class="__inline" id="menu">
@@ -26,12 +29,6 @@
       <li><h2><a href="#portfolio">Projects</a></h2></li>
       <li><h2><a href="#contact">Publications</a></h2></li>
     </ul>
-
-      <!-- <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a> -->
-
     </span>
 	</div>
 </div>
@@ -41,8 +38,19 @@
   <div id="page0">
 		<a name="home"></a>
 		<div class="page-padding"></div>
-    <img src="images/walonchiu.jpg" id="circle">
-		<p>This is what you see on the About page.</p>
+
+    <div class="row">
+      <div class="col-sm-4 text-right"><img src="images/walonchiu.jpg" id="circle"/></div>
+      <div class="col-sm-8 text-left">
+        <p><h4>Assistant Professor in Computer Science</h4></p>
+        <p><h4>at National Chiao Tung University</h4></p>
+        <p><h4>Doctor of Engineering Science (Dr.-Ing.)</h4></p>
+        <p><h4>Max Planck Institute for Informatics</h4></p>
+      </div>
+    </div>
+
+    <!-- <img src="images/walonchiu.jpg" id="circle">
+		<p>This is what you see on the About page.</p> -->
 	</div> <!--END page0-->
 
 	<div id="page1">
@@ -54,7 +62,24 @@
 	<div id="page2">
 		<a name="portfolio"></a>
 		<div class="page-padding"></div>
-		<p>This is what you would see on the Portfolio page.</p>
+
+    <div class="project" id="stability2016arXiv">
+      <div class="row">
+        <div class="col-sm-4">
+          <!-- <p>Test</p> -->
+          <div class="paper-teaser">
+            <img alt="teaser figure" class="thumbnail" src="images/projects/diffhog_logo.png">
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h4>See the Difference: Direct Pre-Image Reconstruction and Pose Estimation by Differentiating HOG</h4>
+          <p class="authors">Wei-Chen Chiu, Mario Fritz</p>
+          <p class="conference">[<a style="color:blue;" href="https://arxiv.org/abs/1604.00066">ICCV 2015</a> ]</p>
+        </div>
+      </div>
+    </div>
+
+
 	</div> <!--END page2-->
 
 	<div id="page3">
@@ -65,42 +90,5 @@
 
 </div> <!--END page-wrap-->
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-
-    return false;
-});
-</script> -->
-
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script>$(document).ready(function() {
-  function filterPath(string) {
-    return string
-      .replace(/^\//,'')
-      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-      .replace(/\/$/,'');
-  }
-  $('a[href*=#]').each(function() {
-    if ( filterPath(location.pathname) == filterPath(this.pathname)
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-         $(this).click(function() {
-           $('html, body').animate({scrollTop: targetOffset}, 2000);
-           return false;
-         });
-      }
-    }
-  });
-});</script> -->
 </body>
 </html>
