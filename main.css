@@ -118,6 +118,11 @@ h2 {
 	background:#9b70c0;
 	}
 
+	.vcenter {
+	    display: inline-block;
+	    vertical-align: middle;
+	    float: none;
+	}
 	.vertical-align {
 	    display: flex;
 	    align-items: center;
