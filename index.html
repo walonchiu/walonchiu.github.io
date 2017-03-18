@@ -15,8 +15,137 @@
   <!--To use google font in github, use href='//fonts.googleapis...' instead of href='http//fonts.googleapis...' -->
   <link id='redux-google-fonts-css' href='http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope' rel='stylesheet' type='text/css'>
   <link id='redux-google-fonts-css' href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+   <script>
+   function showhide(id) {
+     var e = document.getElementById(id);
+     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+   }
+  </script>
+
 </head>
 <body>
+
+<div id="page-wrap">
+
+  <div id="page0">
+		<a name="home"></a>
+		<div class="page-padding"></div>
+
+    <div class="row vertical-align">
+      <div class="col-sm-4 text-right"><img src="images/walonchiu.jpg" id="circle"/></div>
+      <div class="col-sm-8 text-left">
+        <div class="row">
+          <div class="col-sm-8 text-left">
+            <p><b><h4>Assistant Professor in Computer Science</h4></b></p>
+            <p><b><h4>at National Chiao Tung University</h4></b></p>
+          </div>
+          <!-- <div class="col-sm-3 text-left">
+            <img src="images/logos/NCTU.png" id="circle"/>
+          </div> -->
+          <div class="col-sm-8 text-left" style="color:#969696">
+            <p><b><h4>Doctor of Engineering Science (Dr.-Ing.)</h4></b></p>
+            <p><b><h4>Max Planck Institute for Informatics</h4></b></p>
+          </div>
+          <!-- <div class="col-sm-3 text-left">
+            <img src="images/logos/MPI.png" id="circle"/>
+          </div> -->
+        </div>
+      </div>
+    </div>
+	</div> <!--END page0-->
+
+	<div id="page1">
+		<a name="about"></a>
+		<div class="page-padding"></div>
+		<p>This is what you see on the About page.</p>
+	</div> <!--END page1-->
+
+	<div id="page2">
+		<a name="portfolio"></a>
+		<div class="page-padding"></div>
+
+    <div class="project" id="cvpr2017">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="paper-teaser">
+            <img alt="teaser figure" class="thumbnail" src="images/projects/std2p_logo.png">
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h4>STD2P: RGBD Semantic Segmentation Using Spatio-Temporal Data-Driven Pooling</h4>
+          <p class="authors">Yang He, Wei-Chen Chiu, Margret Keuper, Mario Fritz</p>
+          <p class="conference">
+            [<a style="color:blue;" href="http://arxiv.org/pdf/1604.02388.pdf">CVPR 2017</a>
+            (<a style="color:#969696;" href="javascript:showhide('cvpr2017_bib')">BibTeX</a>)]
+          </p>
+          <div id="cvpr2017_bib" style="display:none;">
+            <p>
+              @inproceedings{yang17cvpr,<br>
+              &nbsp;title = {STD2P: RGBD Semantic Segmentation Using Spatio-Temporal Data-Driven Pooling},<br>
+              &nbsp;author = {Yang He and Wei-Chen Chiu and Margret Keuper and Mario Fritz},<br>
+              &nbsp;booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},<br>
+              &nbsp;year = {2017}<br>
+              }
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project" id="accv2016">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="paper-teaser">
+            <img alt="teaser figure" class="thumbnail" src="images/projects/adaptive_logo.jpg">
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h4>Towards Segmenting Consumer Stereo Videos: Benchmark, Baselines and Ensembles </h4>
+          <p class="authors">Wei-Chen Chiu, Fabio Galasso，Mario Fritz</p>
+          <p class="conference">
+            [<a style="color:blue;" href="https://arxiv.org/pdf/1609.00836.pdf">ACCV 2016</a>
+            (<a style="color:#969696;" href="javascript:showhide('accv2016_bib')">BibTeX</a>)]
+          </p>
+          <div id="accv2016_bib" style="display:none;">
+            <p>
+              @inproceedings{chiu16accv,<br>
+              &nbsp;title = {Towards Segmenting Consumer Stereo Videos: Benchmark, Baselines and Ensembles},<br>
+              &nbsp;author = {Wei-Chen Chiu and Fabio Galasso and Mario Fritz},<br>
+              &nbsp;booktitle = {Asian Conference on Computer Vision (ACCV)},<br>
+              &nbsp;year = {2016}<br>
+              }
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project" id="iccv2015">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="paper-teaser">
+            <img alt="teaser figure" class="thumbnail" src="images/projects/diffhog_logo.png">
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h4>See the Difference: Direct Pre-Image Reconstruction and Pose Estimation by Differentiating HOG</h4>
+          <p class="authors">Wei-Chen Chiu, Mario Fritz</p>
+          <p class="conference">[<a style="color:blue;" href="http://www.mpi-inf.mpg.de/fileadmin/inf/d2/walon/walon2015iccv.pdf">ICCV 2015</a>]</p>
+        </div>
+      </div>
+    </div>
+
+
+	</div> <!--END page2-->
+
+	<div id="page3">
+		<a name="contact"></a>
+		<div class="page-padding"></div>
+		<p>This is what you see on the Contact page.</p>
+	</div> <!--END page3-->
+
+</div> <!--END page-wrap-->
 
 <div id="header">
 	<div id="nav">
@@ -32,75 +161,6 @@
     </span>
 	</div>
 </div>
-
-<div id="page-wrap">
-
-  <div id="page0">
-		<a name="home"></a>
-		<div class="page-padding"></div>
-
-    <div class="row vertical-align">
-      <div class="col-sm-4 text-right"><img src="images/walonchiu.jpg" id="circle"/></div>
-      <div class="col-sm-8 text-left">
-        <div class="row">
-          <div class="col-sm-10 text-left">
-            <p><h4>Assistant Professor in Computer Science</h4></p>
-            <p><h4>at National Chiao Tung University</h4></p>
-          </div>
-          <div class="col-sm-2 text-left vcenter">
-            <img src="images/logos/NCTU.png" id="circle"/>
-          </div>
-          <div class="col-sm-10 text-left">
-            <p><h4>Doctor of Engineering Science (Dr.-Ing.)</h4></p>
-            <p><h4>Max Planck Institute for Informatics</h4></p>
-          </div>
-          <div class="col-sm-2 text-left vcenter">
-            <img src="images/logos/MPI.png" id="circle"/>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <img src="images/walonchiu.jpg" id="circle">
-		<p>This is what you see on the About page.</p> -->
-	</div> <!--END page0-->
-
-	<div id="page1">
-		<a name="about"></a>
-		<div class="page-padding"></div>
-		<p>This is what you see on the About page.</p>
-	</div> <!--END page1-->
-
-	<div id="page2">
-		<a name="portfolio"></a>
-		<div class="page-padding"></div>
-
-    <div class="project" id="stability2016arXiv">
-      <div class="row">
-        <div class="col-sm-4">
-          <!-- <p>Test</p> -->
-          <div class="paper-teaser">
-            <img alt="teaser figure" class="thumbnail" src="images/projects/diffhog_logo.png">
-          </div>
-        </div>
-        <div class="col-sm-8">
-          <h4>See the Difference: Direct Pre-Image Reconstruction and Pose Estimation by Differentiating HOG</h4>
-          <p class="authors">Wei-Chen Chiu, Mario Fritz</p>
-          <p class="conference">[<a style="color:blue;" href="https://arxiv.org/abs/1604.00066">ICCV 2015</a> ]</p>
-        </div>
-      </div>
-    </div>
-
-
-	</div> <!--END page2-->
-
-	<div id="page3">
-		<a name="contact"></a>
-		<div class="page-padding"></div>
-		<p>This is what you see on the Contact page.</p>
-	</div> <!--END page3-->
-
-</div> <!--END page-wrap-->
 
 </body>
 </html>

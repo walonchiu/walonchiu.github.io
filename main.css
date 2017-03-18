@@ -13,6 +13,12 @@ body {
 	height:2000px;
 	}
 
+.page-padding {height:100px; width:100%;}
+
+a { color:white; text-decoration:none;}
+
+a:hover { text-decoration:underline;}
+
 ul.__inline {
   margin: 0;
   padding: 0;
@@ -74,10 +80,10 @@ h2 {
 
 #page0 {
 	height:600px;
-	width:70%;
+	width:80%;
 	padding-top: 1%;
-	padding-left: 5%;
-	padding-right: 5%;
+	/*padding-left: 5%;*/
+	/*padding-right: 5%;*/
 	margin-left: 10%;
 	margin-right: 10%;
 	background:#F5FFFA;
@@ -87,7 +93,7 @@ h2 {
 
 #page1 {
 	height:1100px;
-	width:70%;
+	width:80%;
 	padding-top:110px;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -98,7 +104,7 @@ h2 {
 
 #page2 {
 	height:1100px;
-	width:70%;
+	width:80%;
 	padding-top:110px;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -109,7 +115,7 @@ h2 {
 
 #page3 {
 	height:1100px;
-	width:70%;
+	width:80%;
 	padding-top:110px;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -118,30 +124,10 @@ h2 {
 	background:#9b70c0;
 	}
 
-	.vcenter {
-	    display: inline-block;
-	    vertical-align: middle;
-	    float: none;
-	}
 	.vertical-align {
 	    display: flex;
 	    align-items: center;
 	}
-	/* ================================================== */
-	/*.container { display: table;}
-	.row { display: table-row; }
-	.column { display: table-cell; }*/
-	/*.row{
-	    display: table;
-	    width: 100%;
-	    table-layout: fixed;
-	    border-spacing: 10px;
-	}
-	.column{
-			column-gap: 40px;
-	    display: table-cell;
-	    background-color: red;
-	}*/
 
 	/**
 	 * Project item
@@ -172,7 +158,7 @@ h2 {
 	.conference, .source, .authors {
 	    font-style: italic;
 			/*color: blue;*/
-	    /*font-size: 14px;*/
+	    font-size: 16px;
 	    /*line-height: 14px;*/
 	}
 
@@ -185,9 +171,3 @@ h2 {
 	    /*max-width: 300px;*/
 	}
 /* ================================================== */
-
-.page-padding {height:100px; width:100%;}
-
-a { color:white; text-decoration:none;}
-
-a:hover { text-decoration:underline;}
