@@ -118,6 +118,10 @@ h2 {
 	background:#9b70c0;
 	}
 
+	.vertical-align {
+	    display: flex;
+	    align-items: center;
+	}
 	/* ================================================== */
 	/*.container { display: table;}
 	.row { display: table-row; }
