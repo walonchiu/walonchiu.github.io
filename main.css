@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-		color: white;
+		/*color: white;*/
     font-size: 32px;
     /*line-height: 32px;*/
 		margin: auto;
@@ -60,7 +60,7 @@ h2 {
 	top:0px;
 	left:0px;
 	background:#666;
-	height:15%;
+	height:17.5%;
 	width:100%;
 	}
 
@@ -77,53 +77,79 @@ h2 {
 	width:50%;
 	/*height:20%;*/
 	}
+#reg_circle {
+	border-radius:5% 5% 5% 52%;
+	width:50%;
+	/*height:20%;*/
+	}
+#reg {
+		width:50%;
+	}
+
+.horizontal-line{
+	width: 80%; /* Line width */
+	/*background-color: black; */
+	background-image: url( 'images/sep.png' );
+	background-repeat:repeat-x;
+	background-size:contain;
+	height: 40px;
+	/*margin-top: 1%;*/
+	margin-bottom: 1%;
+	/*float: center;*/
+}
 
 #page0 {
 	height:600px;
 	width:80%;
-	padding-top: 5%;
+	padding-top: 7.5%;
 	/*padding-left: 5%;*/
 	/*padding-right: 5%;*/
 	margin-left: 10%;
 	margin-right: 10%;
-	background:#F5FFFA;
+	/*background:#F5FFFA;*/
+	background-color: transparent;
 	/*background-image:url( 'images/home_bg.jpg' );*/
 	background-repeat:no-repeat;
 	}
 
 #page1 {
-	height:1100px;
+	/*height:1100px;*/
 	width:80%;
 	padding-top: 5%;
+	padding-bottom: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
-	background:#afc9ff;
+	/*background:#afc9ff;*/
+	background-color: transparent;
 	}
 
 #page2 {
-	height:1100px;
+	/*height:1100px;*/
 	width:80%;
 	padding-top: 5%;
+	padding-bottom: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
 	background:#777cdc;
+	/*background-color: transparent;*/
 	}
 
 #page3 {
 	/*height:1100px;*/
 	width:80%;
 	/*padding-top:110px;*/
-	padding-top: 10%;
-	padding-bottom:10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
-	background:#9b70c0;
+	/*background:#9b70c0;*/
+	background-color: transparent;
 	}
 
 	.vertical-align {
