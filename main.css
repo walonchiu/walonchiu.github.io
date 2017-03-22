@@ -67,7 +67,7 @@ h2 {
 #nav {
 	margin-left:12.5%;
 	margin-right:12.5%;
-	margin-top:15px;
+	margin-top:10px;
 	justify-content:space-between;
 	/*word-spacing:20px;*/
 }
@@ -156,6 +156,14 @@ h2 {
 	    display: flex;
 	    align-items: center;
 	}
+
+	/**
+	 * Image Slide item
+	 * ==================================================
+	 */
+	.mySlides {display:none}
+	.w3-left, .w3-right, .w3-badge {cursor:pointer}
+	.w3-badge {height:13px;width:13px;padding:0}
 
 	/**
 	 * Project item
