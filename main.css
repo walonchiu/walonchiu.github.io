@@ -59,6 +59,7 @@ h2 {
 	position:fixed;
 	top:0px;
 	left:0px;
+	opacity: .9; 
 	background:#666;
 	height:100px;
 	width:100%;
