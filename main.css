@@ -98,6 +98,16 @@ h2 {
 	/*float: center;*/
 }
 
+#news {
+	float: center;
+	width: 62.5%;
+	background-color:transparent;
+	max-height:150px;
+	overflow: scroll;
+	border:8px solid yellowgreen;
+	/*padding:2%*/
+}
+
 #page0 {
 	/*height:600px;*/
 	width:80%;
