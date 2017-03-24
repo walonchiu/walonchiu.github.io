@@ -102,7 +102,7 @@ h2 {
 	float: center;
 	width: 62.5%;
 	background-color:transparent;
-	max-height:150px;
+	max-height:200px;
 	overflow: scroll;
 	border:8px solid yellowgreen;
 	/*padding:2%*/
