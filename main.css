@@ -91,7 +91,7 @@ h2 {
 .space {
   background: none;
   /* make the width small, but setting it to 0 will actual default to the same width as other cells */
-  width: 1%;
+  width: 5%;
 }
 
 .horizontal-line{
