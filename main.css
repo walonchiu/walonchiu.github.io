@@ -87,6 +87,13 @@ h2 {
 		width:50%;
 	}
 
+	/* make the cells appear to be empty */
+.space {
+  background: none;
+  /* make the width small, but setting it to 0 will actual default to the same width as other cells */
+  width: 0.1rem;
+}
+
 .horizontal-line{
 	width: 80%; /* Line width */
 	/*background-color: black; */
