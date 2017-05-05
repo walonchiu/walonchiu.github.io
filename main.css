@@ -162,6 +162,19 @@ h2 {
 	background-color: transparent;
 	}
 
+	#page4 {
+		/*height:1100px;*/
+		width:80%;
+		padding-top: 100px;
+		/*padding-bottom: 5%;*/
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+		/*background:#777cdc;*/
+		background-color: transparent;
+		}
+
 #page_end {
 	width:80%;
 	padding-bottom: 5px;
