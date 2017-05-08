@@ -5,9 +5,9 @@
 
 body {
 	/*background:#e0e6d3;*/
-	/*background-image:url( 'images/page_bg.gif' );*/
+	/*background-image:url( 'images/materials/page_bg.gif' );*/
 	/*background-repeat:repeat-x;*/
-	background-image:url( 'images/seigaiha.png' );
+	background-image:url( 'images/materials/seigaiha.png' );
 	margin: 0 auto;
 	font-family:'Inconsolata',georgia,times,serif,'Annie Use Your Telescope','Lobster','Fascinate Inline','Gloria Hallelujah','Pacifico','Shadows Into Light','Bilbo','Calligraffitti';
 	height:2000px;
@@ -97,7 +97,7 @@ h2 {
 .horizontal-line{
 	width: 80%; /* Line width */
 	/*background-color: black; */
-	background-image: url( 'images/sep.png' );
+	background-image: url( 'images/materials/sep.png' );
 	background-repeat:repeat-x;
 	background-size:contain;
 	height: 30px;
