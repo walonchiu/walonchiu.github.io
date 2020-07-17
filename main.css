@@ -45,14 +45,17 @@ h1 {
     /*line-height: 36px;*/
     margin: auto;
     padding: 0;
+    display: inline;
 }
 
 h2 {
 		/*color: white;*/
     font-size: 32px;
     /*line-height: 32px;*/
-		margin: auto;
+	margin: auto;
     padding: 0;
+    display: inline;
+
 }
 
 #header {
